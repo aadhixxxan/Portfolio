@@ -86,13 +86,9 @@ button:hover{
 .navbar-phone{
     display: none;
 }
-.header>.social{
-    display: flex;
-    list-style: none;
-}
 /* Sectin : Feature Box */
 .feature-box .row{
-    height: 100vh;
+    min-height:90vh ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,6 +124,27 @@ button a{
     color: crimson;
     font-weight: bold;
     transition: all 0.1s;
+}
+.feature-box>.row>.coloum-1>.social>ul{
+    list-style: none;
+    margin-top: 30px;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.feature-box>.row>.coloum-1>.social>ul>h4{
+    font-weight: 500;
+    color: crimson;
+}
+.feature-box>.row>.coloum-1>.social>ul>li>a>i{
+    text-decoration: none;
+    color: crimson;
+    font-size: 22px;
+    border:solid 1px crimson;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.219);
 }
 .feature-box>.row>.coloum-2>img{
     height: 300px;
